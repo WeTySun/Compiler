@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk.Tests\\Minsk.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk.Tests\\Minsk.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk.Tests\\Minsk.Tests.csproj",
+        "projectName": "Minsk.Tests",
+        "projectPath": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk.Tests\\Minsk.Tests.csproj",
+        "packagesPath": "C:\\Users\\dovyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dovyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\Minsk.csproj": {
+                "projectPath": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\Minsk.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "XunitXML.TestLogger": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\Minsk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\Minsk.csproj",
+        "projectName": "Minsk",
+        "projectPath": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\Minsk.csproj",
+        "packagesPath": "C:\\Users\\dovyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dovyd\\Desktop\\Projects\\minsk-master\\src\\Minsk\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dovyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
